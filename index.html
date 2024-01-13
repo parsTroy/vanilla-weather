@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Title</title>
+</head>
+
+<body id="body" class="body">
+    <header class="header">
+        <div>
+            <img src="assets/search-icon.png" width="30px" alt="search-icon">
+        </div>
+        <div>
+            <img src="assets/burger-menu-icon.png" width="30px" alt="menu-icon">
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="upper--container">
+            <div id="cityName" class="city">
+            </div>
+            <div id="date" class="date--time">
+                6:30 pm - Monday, 24 Dec '24
+            </div>
+        </div>
+
+        <div class="lower--container">
+            <div id="temperature" class="temperature">
+                -5&deg;
+            </div>
+            <div class="condition--container">
+                <div id="weather--icon" class="condition--weather"></div>
+                <div id="weatherCondition" class="condition--weather">Snowing</div>
+            </div>
+        </div>
+    </main>
+
+    <div class="divider"></div>
+
+    <footer class="footer">
+        <div>
+            <div class="sub_title">
+                Wind
+            </div>
+            <div>
+                <div id="windSpeed" class="dynamic_number"></div>
+                <div>
+                    Km/h
+                </div>
+            </div>
+            <div class="progress--back">
+                <div class="progress-bar--green"></div>
+            </div>
+        </div>
+        <div>
+            <div class="sub_title">
+                Wind Chill
+            </div>
+            <div>
+                <div id="windChill" class="dynamic_number"></div>
+                <div>
+                    %
+                </div>
+            </div>
+            <div class="progress--back">
+                <div class="progress-bar--yellow"></div>
+            </div>
+        </div>
+        <div>
+            <div class="sub_title">
+                Humidity
+            </div>
+            <div>
+                <div id="humidity" class="dynamic_number"></div>
+                <div>
+                    %
+                </div>
+            </div>
+            <div class="progress--back">
+                <div class="progress-bar--red"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="index.js"></script>
+
+</html>

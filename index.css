@@ -1,0 +1,142 @@
+body {
+    width: screen;
+    height: screen;
+
+    margin: 0;
+
+    color: #f0ffff;
+    font-family: 'Poppins', sans-serif;
+
+    text-shadow: grey;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0rem;
+
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+    width: 90%;
+
+    padding: 1.5rem;
+
+    /* background-color: rgba(9, 37, 29, 0.02); */
+}
+
+.main {
+    display: inline-block;
+    position: relative;
+
+    justify-content: space-between;
+
+    height: 100%;
+    width: 95%;
+
+    margin-top: 8rem;
+}
+
+.city {
+    font-size: 50px;
+    margin-bottom: .25rem;
+    font-weight: bold;
+}
+
+.date--time {
+    font-size: 16px;
+}
+
+.upper--container {
+    padding-left: 2rem;
+}
+
+.lower--container {
+    position: fixed;
+
+    padding-left: 2rem;
+    bottom: 15rem;
+}
+
+.condition--container {
+    display: flex;
+    gap: .5rem;
+    font-size: 35px;
+}
+
+.condition--weather {
+    font-size: 25px;
+    margin-right: .5rem;
+}
+
+.temperature {
+    font-size: 130px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sub_title {
+    color: #f3f3f3;
+    margin-bottom: 0.3rem;
+}
+
+.dynamic_number {
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.divider {
+    position: fixed;
+    bottom: 12rem;
+
+    width: 83%;
+
+    margin-left: 2rem;
+
+    border: 1px #d3d3d3 solid;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+
+    justify-content: space-around;
+
+    height: fit-content;
+    width: 90%;
+
+    padding: 1.5rem;
+    padding-bottom: 2.5rem;
+
+    /* background-color: rgba(9, 37, 29, 0.02); */
+}
+
+.progress--back {
+    margin-top: .4rem;
+
+    height: 4px;
+    width: 60px;
+    background-color: #d3d3d3;
+}
+
+.progress-bar--green {
+    height: 4px;
+    width: 33%;
+
+    background-color: #17C3B2;
+}
+
+.progress-bar--yellow {
+    height: 4px;
+    width: 50%;
+
+    background-color: #FFCB77;
+}
+
+.progress-bar--red {
+    height: 4px;
+    width: 66%;
+
+    background-color: #FE6D73;
+}
