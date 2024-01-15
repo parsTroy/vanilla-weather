@@ -7,18 +7,18 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="index.css" />
 
-    <title>Vanilla Weather</title>
+    <title>Vanilla JS Weather App</title>
 </head>
 
 <body id="body" class="body">
     <header class="header">
-        <div>
+        <div class="search">
             <img src="assets/search-icon.png" width="30px" alt="search-icon">
+            <input id="input" type="text">
         </div>
         <div>
             <img src="assets/burger-menu-icon.png" width="30px" alt="menu-icon">
@@ -30,17 +30,15 @@
             <div id="cityName" class="city">
             </div>
             <div id="date" class="date--time">
-                6:30 pm - Monday, 24 Dec '24
+                <!-- 6:30 pm - Monday, 24 Dec '24 -->
             </div>
         </div>
 
         <div class="lower--container">
-            <div id="temperature" class="temperature">
-                -5&deg;
-            </div>
+            <div id="temperature" class="temperature"></div>
             <div class="condition--container">
                 <div id="weather--icon" class="condition--weather"></div>
-                <div id="weatherCondition" class="condition--weather">Snowing</div>
+                <div id="weatherCondition" class="condition--weather"></div>
             </div>
         </div>
     </main>
